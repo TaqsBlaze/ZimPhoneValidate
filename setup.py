@@ -12,7 +12,10 @@ setup(
     license="MIT",
     url="https://wa.me/263778040497?text=More+details+about+ZimPhoneValidate+package",
     install_requires=["pip"],
-    classifiers=["regex","phone number","verify"],
-    examples_location = "example/*",
+    classifiers=[
+        "regex",
+        "phone number",
+        "verify"
+    ],
     entry_points={"cli":["ZimPhoneValidate=validate","cli=validate.isvalid"]}
 )
