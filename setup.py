@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 from setuptools import setup
 
 setup(
@@ -6,16 +5,21 @@ setup(
     version="1.0.0",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
-    long_description="""
-    A package for easily validating Zimbabwean phone numbers
-    in your python applications""",
+    long_description="A package for easily validating Zimbabwean phone numbers in your Python applications",
     license="MIT",
-    url="https://wa.me/263778040497?text=More+details+about+ZimPhoneValidate+package",
+    url="https://github.com/taqsblaze/ZimPhoneValidate",
     install_requires=["pip"],
     classifiers=[
-        "regex",
-        "phone number",
-        "verify"
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Topic :: Utilities",
     ],
-    entry_points={"cli":["ZimPhoneValidate=validate","cli=validate.isvalid"]}
+    entry_points={
+        "console_scripts": [
+            "ZimPhoneValidate=validate",
+            "cli=validate.isvalid",
+        ]
+    },
 )
