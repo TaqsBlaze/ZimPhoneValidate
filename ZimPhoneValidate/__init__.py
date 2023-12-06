@@ -10,9 +10,9 @@ NB: The + in country codes is not supported and the moment
 developed by: Tanaka Chinengundu
 
 '''
-from ZimPhoneValidate.validate import isvalid, example
+from ZimPhoneValidate.validate import number_is_valid, example
 
 
 example = example
-is_number_valid = is_number_valid 
-versiom= "1.0.0"
+number_is_valid = number_is_valid 
+versiom= "1.1.0"
