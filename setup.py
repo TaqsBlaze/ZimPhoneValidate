@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="ZimPhoneValidate",
-    version="1.0.0",
+    version="1.1.0",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="A package for easily validating Zimbabwean phone numbers in your Python applications",
