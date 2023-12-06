@@ -1,7 +1,7 @@
 import re
 
 
-def is_number_valid(number):
+def number_is_valid(number):
 		
 	'''
 	Returns True if number is a valid zim phone number with country code
