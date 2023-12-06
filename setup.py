@@ -5,7 +5,9 @@ setup(
     version="1.1.0",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
-    long_description="A package for easily validating Zimbabwean phone numbers in your Python applications",
+    long_description="""
+	A package for easily validating Zimbabwean phon
+	""",
     license="MIT",
     url="https://github.com/taqsblaze/ZimPhoneValidate",
     install_requires=["pip"],
