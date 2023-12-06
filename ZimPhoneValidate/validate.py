@@ -22,7 +22,7 @@ class example:
 	def show():
 
 		eg='''
-		from ZimPhoneValidate.validate import is_number_valid
+		from ZimPhoneValidate.validate import number_is_valid
 		
 		number = "263778040497"
 
