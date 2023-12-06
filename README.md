@@ -10,12 +10,12 @@ Whatsapp: +263778040497
 ZimPhoneValidate is a module for easily validating
 Zimbabwean phone numbers within your python software
 
-#How to install
+##How to install
 
 open your terminal in root directory and run the setup.py file
 python setup.py install
 
-#How to use
+##How to use
 
 ```
 from ZimPhoneValidate.validate import isvalid
@@ -23,7 +23,7 @@ from ZimPhoneValidate.validate import isvalid
 
 number=str(input("Enter a valid Zim number with country code\n:"))
 
-if isvalid(number221:
+if isvalid(number):
 	
 	print(f"{number} is a valid phone number")
 else:

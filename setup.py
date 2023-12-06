@@ -18,8 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ZimPhoneValidate=validate",
-            "cli=validate.isvalid",
+            "example=ZimPhoneValidate.validate:example"
         ]
     },
 )
