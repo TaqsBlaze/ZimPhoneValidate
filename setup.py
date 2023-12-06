@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "example=ZimPhoneValidate.validate:example"
+            "example=ZimPhoneValidate.validate:example.show"
         ]
     },
 )
