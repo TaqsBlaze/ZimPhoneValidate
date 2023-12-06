@@ -26,7 +26,7 @@ class example:
 		
 		number = "263778040497"
 
-		if is_number_valid(number):
+		if number_is_valid(number):
 			print("Number is Valid")
 		else:
 			print("Not a valid number")
