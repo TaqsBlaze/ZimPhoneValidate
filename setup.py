@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="ZimPhoneValidate",
-    version="1.1.3",
+    version="1.1.4",
     author="Tanaka Chinengundu",
     author_email="tanakah30@gmail.com",
     long_description="""
